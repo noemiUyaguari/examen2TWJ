@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3" *ngFor="let info of ingredientes" style="margin-right: 15px; margin-top: 15px">
+      <div class="card" style="width: 21rem;">
+      <div class="row">
+        <div class="col-sm-6">
+          <img class="card-img-top" src="
+          https://biotrendies.com/wp-content/uploads/2017/02/peligros-comida-rapida.jpg" alt="Card image cap">
+        </div>
+        <div class="col-sm-6">
+          <div class="col-sm-8 ">
+            {{info.nombreMarca}}
+          </div>
+          <div class="col-sm-6 ">
+            {{info.nombreModelo}}
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4"> </div>
+    <div class="col-sm-4">
+      <button type="button" class="btn btn-secondary" style="margin-top: 40px">Cargar mas</button>
+    </div>
+    <div class="col-sm-4"> </div>
+  </div>
+</div>
